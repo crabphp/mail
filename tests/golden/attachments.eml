@@ -1,0 +1,26 @@
+From: Example App <app@example.org>
+To: Ada Lovelace <ada@example.com>
+Subject: Your invoice
+Date: Sat, 21 Nov 2026 10:30:00 +0000
+Message-ID: <01010101010101010101010101010101@example.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_crab_020202020202020202020202"
+
+--=_crab_020202020202020202020202
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Your invoice is attached.
+
+--=_crab_020202020202020202020202
+Content-Type: application/pdf; name="invoice.pdf"
+Content-Disposition: attachment; filename="invoice.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBE
+Ri0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0x
+LjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcg
+JVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBE
+Ri0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcgJVBERi0xLjcg
+
+--=_crab_020202020202020202020202--

@@ -1,0 +1,47 @@
+From: Example App <app@example.org>
+To: Ada Lovelace <ada@example.com>
+Subject: Welcome
+Date: Sat, 21 Nov 2026 10:30:00 +0000
+Message-ID: <01010101010101010101010101010101@example.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_crab_040404040404040404040404"
+
+--=_crab_040404040404040404040404
+Content-Type: multipart/related; boundary="=_crab_030303030303030303030303"
+
+--=_crab_030303030303030303030303
+Content-Type: multipart/alternative;
+ boundary="=_crab_020202020202020202020202"
+
+--=_crab_020202020202020202020202
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome
+
+--=_crab_020202020202020202020202
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p><img src=3D"cid:logo" alt=3D"Logo"> Welcome</p>
+
+--=_crab_020202020202020202020202--
+
+--=_crab_030303030303030303030303
+Content-Type: image/png; name="logo.png"
+Content-Disposition: inline; filename="logo.png"
+Content-ID: <logo>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgpmYWtlIGltYWdlIGJ5dGVz
+
+--=_crab_030303030303030303030303--
+
+--=_crab_040404040404040404040404
+Content-Type: text/plain; name="terms.txt"
+Content-Disposition: attachment; filename="terms.txt"
+Content-Transfer-Encoding: base64
+
+VGVybXMK
+
+--=_crab_040404040404040404040404--

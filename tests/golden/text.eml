@@ -1,0 +1,15 @@
+From: Example App <app@example.org>
+To: Ada Lovelace <ada@example.com>
+Subject: Confirm your email
+Date: Sat, 21 Nov 2026 10:30:00 +0000
+Message-ID: <01010101010101010101010101010101@example.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Ada,
+
+Open this link to confirm: https://app.example.org/verify?token=3Dabc123&us=
+er=3D7
+
+Thanks

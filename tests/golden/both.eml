@@ -1,0 +1,25 @@
+From: Example App <app@example.org>
+To: Ada Lovelace <ada@example.com>
+Cc: grace@example.com
+Reply-To: Support <support@example.org>
+Subject: Confirm your email
+Date: Sat, 21 Nov 2026 10:30:00 +0000
+Message-ID: <01010101010101010101010101010101@example.org>
+MIME-Version: 1.0
+X-Campaign: welcome
+Content-Type: multipart/alternative;
+ boundary="=_crab_020202020202020202020202"
+
+--=_crab_020202020202020202020202
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Ada
+
+--=_crab_020202020202020202020202
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hello Ada</p>
+
+--=_crab_020202020202020202020202--
