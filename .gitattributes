@@ -4,3 +4,4 @@
 /tests export-ignore
 /mago.toml export-ignore
 /phpunit.xml export-ignore
+/tests/golden/*.eml -text
